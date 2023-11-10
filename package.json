@@ -3,26 +3,25 @@
     "version": "1.0.0",
     "description": "a basic employee tracker",
     "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jgarnaat/ems-employee-management-system.git"
+        "type": "git",
+        "url": "git+https://github.com/jgarnaat/ems-employee-management-system.git"
     },
     "keywords": [
-      "node.js",
-      "inquirer",
-      "mysql"
+        "node.js",
+        "inquirer",
+        "mysql"
     ],
     "author": "Josh Garnaat",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/jgarnaat/ems-employee-management-system/issues"
+        "url": "https://github.com/jgarnaat/ems-employee-management-system/issues"
     },
     "homepage": "https://github.com/jgarnaat/ems-employee-management-system#readme",
     "dependencies": {
-      "inquirer": "^8.2.4",
-      "mysql2": "^2.3.3"
+        "cfonts": "^3.2.0",
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.3.3",
+        "save": "^2.9.0"
     }
-  }
+}
